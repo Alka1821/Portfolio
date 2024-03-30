@@ -1,0 +1,100 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color:goldenrod;
+}
+
+header {
+    background-color:chartreuse;
+    color:black;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style-type:disc;
+    padding: 0;
+    margin: 0;
+    text-align:right;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration:none;
+    color:darkblue;
+    
+}
+
+.profile-pic img {
+    width: 250px;
+    height:400px; 
+    float: left;
+    margin-right: 50px; 
+    clip-path:circle(50%);
+}
+    
+.left-panel {
+    flex: 2; /* Adjust width as needed */
+    padding: 10px;
+    text-align: left;
+  }  
+  
+  .left-panel h1 {
+    margin: 0;
+    font-size: 30px; /* Adjust size as needed */
+    color:blue; /* Adjust color as needed */
+  }
+    
+
+
+.section {
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+form button {
+    background-color: red;
+    color:black;
+    padding: 10px 20px;
+    border:chartreuse;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:yellowgreen;
+}
